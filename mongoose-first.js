@@ -22,9 +22,8 @@ const Fruit = mongoose.model("Fruit", fruitSchema);
 
 // creating a new fruit using model above
 const fruit = new Fruit({
-    name: "Mango",
-    rating: 9,
-    review: "It's mango, you already know everything about it."
+    rating: 2,
+    review: "You sure it's a fruit? Why is it sold at vegetable shops and not at fruit shops then??"
 });
 
 // running fruit.save(); again and again will keep creating new fruit instance in db for the same fruit.
